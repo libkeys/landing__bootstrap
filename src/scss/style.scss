@@ -76,7 +76,7 @@ body {
 		padding-right: 10px;
 	}
 }
-.button-circle {
+.button {
 	background: #00dbff;
 	box-shadow: 0px 0px 10px #1c1644;
 	border-radius: 27px;
@@ -91,6 +91,10 @@ body {
 	color: #1c1644;
 
 	text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+
+	&_square {
+		border-radius: 11px;
+	}
 
 	@media (max-width: 1200px) {
 		font-size: 22px;
@@ -721,5 +725,218 @@ body {
 		border-radius: 11px;
 	}
 }
+//====================================================================================================
 
+.move {
+	&__title {
+	}
+
+	&__inner {
+	}
+}
+
+//====================================================================================================
+
+.team {
+	background: linear-gradient(114.25deg, #262b3f 3.42%, rgba(0, 188, 220, 0.4) 95.26%);
+	height: 1344px;
+	&__title {
+		display: flex;
+		justify-content: center;
+		padding-top: 120px;
+		h2 {
+			font-family: Montserrat;
+			font-style: normal;
+			font-weight: bold;
+			font-size: 50px;
+			line-height: 61px;
+
+			color: #ffffff;
+
+			border-bottom: 3px solid #06f697;
+		}
+	}
+
+	&__first {
+		margin-top: 30px;
+	}
+
+	&__image {
+		img {
+			border-radius: 50%;
+		}
+	}
+
+	&__text {
+		background: rgba(255, 255, 255, 0.51);
+		border-radius: 11px;
+		height: 200px;
+		width: 735px;
+		p {
+			font-family: "Montserrat";
+			font-style: normal;
+			font-weight: bold;
+			font-size: 30px;
+			line-height: 37px;
+
+			padding-top: 30px;
+			padding-left: 30px;
+
+			/* Синий */
+
+			color: #1c1644;
+		}
+	}
+
+	&__second {
+		margin-top: 120px;
+	}
+
+	&__phone {
+		background: #00dbff;
+		box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+		border-radius: 11px;
+		margin-top: 50px;
+	}
+
+	&__icon {
+		padding-left: 100px;
+	}
+
+	&__bottom-text {
+		font-family: "Montserrat";
+		font-style: normal;
+		font-weight: bold;
+		font-size: 25px;
+		line-height: 30px;
+
+		padding-left: 35px;
+
+		color: #1c1644;
+
+		text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+	}
+}
+
+//====================================================================================================
+
+.sentence {
+	background-image: url("../img/sentence-bg.png");
+	height: 1101px;
+	&__title {
+		padding-top: 190px;
+
+		h2 {
+			width: 530px;
+			border-bottom: 3px solid #06f697;
+			font-family: "Montserrat";
+			font-style: normal;
+			font-weight: bold;
+			font-size: 50px;
+			line-height: 61px;
+
+			color: #1c1644;
+		}
+	}
+
+	&__inner {
+		padding-top: 65px;
+	}
+
+	&__item {
+		background: linear-gradient(120.57deg, #1c1644 7.66%, #45e4ff 93.72%);
+		border: 3px solid #1c1644;
+		box-sizing: border-box;
+		border-radius: 11px;
+		width: 500.96px;
+		height: 375.72px;
+		p {
+			font-family: "Montserrat";
+			font-style: normal;
+			font-weight: bold;
+			font-size: 30px;
+			line-height: 37px;
+
+			color: #ffffff;
+
+			text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+			padding-top: 52px;
+			padding-left: 45px;
+		}
+	}
+
+	&__subtitle {
+		padding-top: 30px;
+
+		h3 {
+			font-family: "Montserrat";
+			font-style: normal;
+			font-weight: bold;
+			font-size: 30px;
+			line-height: 37px;
+
+			color: #1c1644;
+		}
+	}
+
+	&__order {
+		margin-top: 45px;
+		background: #1c1644;
+		border-radius: 11px;
+		height: 83px;
+		width: 1065px;
+		p {
+			font-family: "Montserrat";
+			font-style: normal;
+			font-weight: bold;
+			font-size: 25px;
+			line-height: 30px;
+			width: 764.64px;
+			text-align: center;
+			padding-top: 8px;
+
+			color: #ffffff;
+		}
+	}
+
+	&__button {
+		height: 59.32px;
+		width: 276.24px;
+		padding-top: 13px;
+		margin-left: 10px;
+	}
+}
+
+.form {
+	height: 1076px;
+	background: linear-gradient(154.44deg, #1c1544 3.71%, #45e4ff 96.72%);
+	&__title {
+		padding-top: 190px;
+		h2 {
+			font-family: "Montserrat";
+			font-style: normal;
+			font-weight: bold;
+			font-size: 50px;
+			line-height: 61px;
+
+			color: #ffffff;
+		}
+	}
+
+	&__inner {
+	}
+
+	&__button {
+		margin-top: 90px;
+		button {
+			background: #00dbff;
+			box-shadow: 0px 0px 10px rgba(0, 188, 219, 0.6);
+			border-radius: 11px;
+			padding: 30px 30px;
+		}
+	}
+}
+
+//====================================================================================================
 //</ОСНОВНОЙ БЛОК>====================================================================================================
